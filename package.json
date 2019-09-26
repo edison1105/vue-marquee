@@ -1,7 +1,7 @@
 {
   "name": "vue-marquee-list",
   "description": "a marquee component for vue project",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "daiwei <daiwei521@126.com>",
   "license": "MIT",
   "private": false,
