@@ -15,7 +15,7 @@ import ListMarquee from 'vue-marquee-list'
 ```
 ## Example
 
-``` js
+``` javascript
 <template>
   <div id="app">
     <div class="marquee-container">
@@ -29,7 +29,7 @@ import ListMarquee from 'vue-marquee-list'
 </template>
 
 <script>
-import ListMarquee from './components/ListMarquee.vue'
+import ListMarquee from 'vue-marquee-list'
 
 export default {
   name: 'app',
@@ -62,5 +62,6 @@ export default {
   line-height: 30px;
 }
 </style>
+
 
 ```
