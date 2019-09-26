@@ -19,7 +19,7 @@ import ListMarquee from 'vue-marquee-list'
 <template>
   <div id="app">
     <div class="marquee-container">
-      <list-marquee :rowHeight="30" :rowCount="5">
+      <list-marquee :interval="1" :rowHeight="30" :rowCount="5">
         <div class="marquee-item" v-for="(item,i) in list" :key="i">
           <div>{{i}}______{{item}}</div>
         </div>
@@ -62,6 +62,4 @@ export default {
   line-height: 30px;
 }
 </style>
-
-
 ```
